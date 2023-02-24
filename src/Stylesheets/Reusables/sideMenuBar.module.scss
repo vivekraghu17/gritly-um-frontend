@@ -1,0 +1,62 @@
+.main-div {
+  display: flex;
+  width: 15vw;
+  height: 100vh;
+  flex-direction: column;
+  background: #142297;
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    .logo {
+      margin: 2rem;
+      width: 90px;
+      height: 40px;
+    }
+  }
+
+  .menu-option-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    .option-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .menu-option {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        color: #ffff;
+        margin: 1.1rem;
+        align-items: center;
+        cursor: pointer;
+        &.selected {
+          color: #fac30f;
+        }
+        .menu-logo {
+          margin-left: 0.25rem;
+          display: flex;
+          justify-content: center;
+          width: 40px;
+        }
+        .menu-label {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 15px;
+          line-height: 18px;
+          padding-left: 1.5rem;
+          display: flex;
+        }
+      }
+      .select-marker {
+        justify-content: center;
+        background: #fac30f;
+        width: 10px;
+        height: 40%;
+        border-radius: 56px;
+      }
+    }
+  }
+}

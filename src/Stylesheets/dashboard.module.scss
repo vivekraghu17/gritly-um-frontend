@@ -1,0 +1,18 @@
+.main-div {
+  height: calc(100vh - 90px);
+  width: calc(100vw - 15vw);
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  .page-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 1.25rem;
+    letter-spacing: -0.03em;
+
+    color: #262626;
+  }
+}

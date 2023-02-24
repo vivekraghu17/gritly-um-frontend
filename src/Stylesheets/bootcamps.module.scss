@@ -1,0 +1,71 @@
+.main-div {
+  height: calc(100vh - 90px);
+  width: calc(100vw - 15vw);
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  .add-bootcamp-section {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    .bootcamp-total-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      justify-content: space-evenly;
+      height: 100%;
+
+      .bootcamps-label {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+
+        letter-spacing: -0.03em;
+
+        color: #262626;
+      }
+      .total-wrapper {
+        display: flex;
+        flex-direction: row;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: #595959;
+        .active {
+          padding-left: 30px;
+        }
+      }
+    }
+    .button-wrapper {
+      display: flex;
+      flex-direction: row;
+      .import-button {
+        width: 99px;
+        height: 41px;
+        display: flex;
+        background: #ffffff;
+        border: 1px solid #142297;
+        border-radius: 6px;
+        justify-content: space-around;
+      }
+      .add-button {
+        width: 99px;
+        height: 41px;
+        color: #ffffff;
+        background: #142297;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.main-div {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  width: calc(100vw - 15vw);
+  height: 90px;
+  .navbar-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    .user-profile-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 2rem;
+      .delimiter {
+        width: 30px;
+        height: 0px;
+
+        border: 1px solid rgba(27, 40, 80, 0.2);
+        transform: rotate(90deg);
+      }
+      .user-name-wrapper {
+        display: flex;
+        flex-direction: column;
+        .name {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          display: flex;
+          align-items: center;
+
+          color: #262626;
+        }
+        .role {
+          font-family: "Cairo";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 10px;
+          line-height: 12px;
+          padding-top: 2px;
+          letter-spacing: 0.02em;
+
+          color: #000000;
+        }
+      }
+      .user-image {
+        padding: 1.25rem;
+        .image {
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+  }
+}
