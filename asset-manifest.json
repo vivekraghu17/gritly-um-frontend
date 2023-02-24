@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gritly-um-frontend/static/css/main.85ba719a.css",
+    "main.js": "/gritly-um-frontend/static/js/main.c5922cf0.js",
+    "static/js/787.2dfb846a.chunk.js": "/gritly-um-frontend/static/js/787.2dfb846a.chunk.js",
+    "index.html": "/gritly-um-frontend/index.html",
+    "main.85ba719a.css.map": "/gritly-um-frontend/static/css/main.85ba719a.css.map",
+    "main.c5922cf0.js.map": "/gritly-um-frontend/static/js/main.c5922cf0.js.map",
+    "787.2dfb846a.chunk.js.map": "/gritly-um-frontend/static/js/787.2dfb846a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ba719a.css",
+    "static/js/main.c5922cf0.js"
+  ]
+}
