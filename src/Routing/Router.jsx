@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../Reusables/Navbar";
 import SideMenuBar from "../Reusables/SideMenuBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "../Stylesheets/Modules/general.scss";
-import Bootcamps from "../Pages/Bootcamps";
-import Dashboard from "../Pages/Dashboard";
-import Settings from "../Pages/Settings";
+import "../Stylesheets/Utils/general.scss";
+import Bootcamps from "../Pages/Bootcamps/Bootcamps";
+import Dashboard from "../Pages/Dashboard/Dashboard";
+import Settings from "../Pages/Settings/Settings";
 export default function Router() {
   const SideMenuWithNavbarWrapper = (Component) => {
     return (

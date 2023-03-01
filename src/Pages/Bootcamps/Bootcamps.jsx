@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../Stylesheets/bootcamps.module.scss";
+import styles from "../../Stylesheets/Components/Bootcamps/bootcamps.module.scss";
 import { Button } from "@mui/material";
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
-import importIcon from "../Assets/Images/importicon.png";
+import importIcon from "../../Assets/Images/importicon.png";
 export default function hi() {
   return (
     <div className={styles["main-div"]}>

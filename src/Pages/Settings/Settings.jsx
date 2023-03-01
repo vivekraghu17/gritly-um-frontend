@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Stylesheets/settings.module.scss";
+import styles from "../../Stylesheets/Components/Settings/settings.module.scss";
 export default function Settings() {
   return (
     <div className={styles["main-div"]}>
